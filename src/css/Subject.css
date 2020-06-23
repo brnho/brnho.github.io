@@ -1,0 +1,15 @@
+.subject-box {
+	width: fit-content;
+	margin: auto;
+    /*background-color: hsl(222, 100%, 96%);*/
+    margin-top: 1.5em;
+    padding: 1em;
+	border-radius: 3px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.10);
+}
+
+.subject-grid {
+	display: grid;
+	grid-gap: 7em;
+	grid-template-columns: 1fr 1fr;
+}

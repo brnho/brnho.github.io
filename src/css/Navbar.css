@@ -1,0 +1,25 @@
+body {
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+	background-image: url('../../public/starry-night.jpg');
+	background-attachment: fixed;;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+	font-size: 1.2rem;
+	font-weight: 600;
+	display: inline-block;
+	margin-left: 1em;
+}
+
+.navbar {
+	background-color: hsl(17, 4%, 95%);
+	padding: .5em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.10);
+}

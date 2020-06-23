@@ -1,0 +1,27 @@
+.grid-item {
+	text-align: center;
+
+}
+
+.card {
+	display: inline-block;
+	background-color: white;
+	border-radius: 3px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.10);
+	text-align: center;
+    padding: .5em;
+}
+
+.card:hover {
+	cursor: pointer;
+}
+
+.img {
+	overflow: hidden;
+}
+
+img {
+	object-fit: cover;
+	height: auto;
+	max-height: 350px;
+}

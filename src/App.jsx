@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Navbar from './Navbar.jsx';
+import Subject from './Subject.jsx';
 
-class App extends React.Component {
-	render() {
-		return (
-			<div>
-				<h1>Hellooo</h1>
-			</div>
-		);
-	}
+function App() {
+	return (
+		<div>
+			<Navbar />
+			<Subject />
+		</div>
+	);
 }
 
 ReactDOM.render(<App />, document.getElementById('content'));
